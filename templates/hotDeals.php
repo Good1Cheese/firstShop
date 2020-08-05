@@ -29,7 +29,7 @@
                         <span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></span>
                         <div class="price-box">
                             <span class="price gfont-2"><?php echo $hotDealItem['price'] ?></span>
-                            <span class="old-price gfont-2"><?php $prevPrice = 1.5 ; $prevPrice *= $hotDealItem['price']; echo $prevPrice;?></span>
+                            <span class="old-price gfont-2"><?php $prevPrice = 1.5 ; $prevPrice *= $hotDealItem['price']; echo '$'.$prevPrice;?></span>
                         </div>
                     </div>
                 </div>
